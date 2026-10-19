@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ProveOfConcept.Calculatord.StatisticsCalculator" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAEAAAEAAAACAAAAAAABAAAAAAACCAIAAAAAgA=</HashCode>
+      <FileName>Calculatord\StatisticsCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProveOfConcept.DAL.RunTestContext" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAA=</HashCode>
+      <FileName>DAL\RunTestContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProveOfConcept.ViewModels.FirstDifferenceViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAPiAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\FirstDifferenceViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ProveOfConcept.ViewModels.RunCalculatedDataViewModel">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="ProveOfConcept.ViewModels.RunCalculatedDataViewModel.IsGreter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ViewModels\RunCalculatedDataViewModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ADAAAACEAAiEAAAEAAAAAAAABCAAAAAACCAIAAAAAgA=</HashCode>
+      <FileName>ViewModels\RunCalculatedDataViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProveOfConcept.ViewModels.RunViewModel" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAAAAAAAAEAAjOAQAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>ViewModels\RunViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RunPaisID" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ProveOfConcept.Managers.CsVManager" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAQAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Managers\CsVManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProveOfConcept.Program" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="System.Int32" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Interface Name="ProveOfConcept.ViewModels.IRunAbstractViewModel" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRunAbstractViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ProveOfConcept.Enums.StatisticCalculationType" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\StatisticCalculationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
